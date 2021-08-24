@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+
+<body>
+  <main class="main">
+    <div class="main-navbar">
+      <div class="navbar-div">
+        <div class="logo-div">
+          <a href=""><img src="images/logo.svg" alt="" class="logo-img"></a>
+        </div>
+        <div class="burger-menu">
+          <button onclick="myFunction()" class="burger"><i class="fas fa-bars"></i></button>
+          <div class="nav-burger" id="nav-burger">
+            <ul class="navbar-nav-burger">
+              <li class="navbar-item-burger"><a href="" class="navbar-link-burger">About</a></li>
+              <li class="navbar-item-burger"><a href="" class="navbar-link-burger">Services</a></li>
+              <li class="navbar-item-burger"><a href="" class="navbar-link-burger">Projects</a></li>
+              <button  class="contact-burger">Contact</button>
+            </ul>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="navbar-nav">
+            <li class="navbar-item"><a href="" class="navbar-link">About</a></li>
+            <li class="navbar-item"><a href="" class="navbar-link">Services</a></li>
+            <li class="navbar-item"><a href="" class="navbar-link">Projects</a></li>
+            <button class="contact">Contact</button>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-div">
+        <h1 class="header">We are creatives</h1>
+        <img src="images/icon-arrow-down.svg" alt="" class="down-arrow">
+      </div>
+    </div>
+    <section class="section">
+      <div class="article row-reverse">
+        <div class="article-img-div">
+          <!--<img src="" alt="" class="article-img">-->
+        </div>
+        <div class="article-text-div">
+          <h2 class="header2">Transform your brand</h2>
+
+          <p class="article-text">We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+
+          <a href="" class="article-link">Learn more</a>
+        </div>
+      </div>
+      <div class="article">
+        <div class="article-img-div img-stand-out">
+
+        </div>
+        <div class="article-text-div">
+          <h2 class="header2">Stand out to the right audience</h2>
+
+          <p class="article-text">Using a collaborative formula of designers, researchers, photographers, videographers,
+            and copywriters, we’ll
+            build
+            and extend your brand in digital places.</p>
+
+          <a href="" class="article-link red">Learn more</a>
+        </div>
+      </div>
+      <div class="text-on-img">
+        <div class="text-img graphic">
+          <h3 class="header3">Graphic design</h3>
+          <p class="toi-text">Great design makes you memorable. We deliver artwork that underscores your brand message
+            and captures
+            potential
+            clients’ attention.</p>
+        </div>
+        <div class="text-img photography">
+          <h3 class="header3 blue">Photography</h3>
+          <p class="toi-text blue">Increase your credibility by getting the most stunning, high-quality photos that
+            improve
+            your business image.</p>
+        </div>
+      </div>
+      <div class="testimonials-main">
+        <h4 class="header4">Client testimonials</h4>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img src="images/image-emily.jpg" alt="" class="testimonial-img">
+            <p class="testimonial-text">We put our trust in Sunnyside and they delivered, making sure our needs were met
+              and deadlines were always
+              hit.</p>
+            <p class="testimonial-name">Emily R.</p>
+            <p class="testimonial-job">Marketing Director</p>
+          </div>
+          <div class="testimonial">
+            <img src="images/image-thomas.jpg" alt="" class="testimonial-img">
+            <p class="testimonial-text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success
+              made it a satisfying and
+              enjoyable
+              experience.</p>
+            <p class="testimonial-name">Thomas S.</p>
+            <p class="testimonial-job">Chief Operating Officer</p>
+          </div>
+          <div class="testimonial">
+            <img src="images/image-jennie.jpg" alt="" class="testimonial-img">
+            <p class="testimonial-text">Incredible end result! Our sales increased over 400% when we worked with
+              Sunnyside. Highly recommended!</p>
+            <p class="testimonial-name">Jennie F.</p>
+            <p class="testimonial-job">Business Owner</p>
+          </div>
+        </div>
+      </div>
+      <div class="four-image">
+        <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" class="four-img">
+        <img src="images/desktop/image-gallery-orange.jpg" alt="" class="four-img">
+        <img src="images/desktop/image-gallery-cone.jpg" alt="" class="four-img">
+        <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" class="four-img">
+      </div>
+    </section>
+    <footer class="footer">
+      <img src="images/logo.svg" alt="" class="footer-logo">
+      <div class="footer-nav-div">
+        <ul class="footer-nav">
+          <li class="footer-nav-item"><a href="" class="footer-nav-link">About</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-link">Services</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-link">Projects</a></li>
+        </ul>
+      </div>
+      <div class="social">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest"></i>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://kit.fontawesome.com/070198f54a.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
